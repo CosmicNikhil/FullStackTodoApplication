@@ -1,12 +1,15 @@
 import './App.css'
+
+import TodoApp from './components/todo/TodoApp'
+
 //import { Component } from 'react'
-import Counter from './components/Counter/Counter';
+//import Counter from './components/Counter/Counter';
 
 
 function App() {
   return (
     <div className="App">
-    <Counter></Counter>
+    <TodoApp/>
     </div>
   );
 }
